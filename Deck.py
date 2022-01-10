@@ -1,4 +1,5 @@
 import random
+
 from Card import Card
 
 class Deck(list):
