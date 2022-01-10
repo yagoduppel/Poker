@@ -1,16 +1,17 @@
-from Deck import Deck
-from Player import Player
 from operator import attrgetter
-from UI import UI
+
+from Deck import Deck
 from eval_funcs import evaluate_holdem
+from Player import Player
+from UI import UI
 
 class Game:
 
     def __init__(self, players = 6, *args, **kwargs):
 
         """
-        Initiates the Game object with as many players as given by
-        the parameter players (default is 6). The player objects are stored
+        Initiates the Game object with as many players as given by \
+        the parameter players (default is 6). The player objects are stored \
         in self.players and then a new hand is dealt.
         """
 
